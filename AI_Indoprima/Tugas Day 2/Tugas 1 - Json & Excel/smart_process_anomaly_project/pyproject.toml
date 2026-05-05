@@ -1,0 +1,21 @@
+[project]
+name = "smart-process-anomaly-project"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "celery>=5.6.3",
+    "crewai>=1.14.4",
+    "fastapi[standard]>=0.136.1",
+    "openpyxl>=3.1.5",
+    "pandas>=3.0.2",
+    "pydantic>=2.12.5",
+    "python-dotenv>=1.2.2",
+    "python-multipart>=0.0.27",
+    "pyyaml>=6.0.3",
+    "redis>=7.4.0",
+    "requests>=2.33.1",
+    "scikit-learn>=1.8.0",
+    "uvicorn[standard]>=0.46.0",
+]

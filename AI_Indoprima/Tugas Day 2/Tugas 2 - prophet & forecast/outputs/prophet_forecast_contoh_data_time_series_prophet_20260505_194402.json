@@ -1,0 +1,97 @@
+{
+  "status": "success",
+  "tool": "Prophet Forecast Tool",
+  "original_filename": "Contoh_Data_Time_Series_Prophet.xlsx",
+  "date_column": "date",
+  "value_column": "sales",
+  "total_historical_data": 180,
+  "forecast_periods": 30,
+  "frequency": "D",
+  "last_actual": {
+    "date": "2025-06-29T00:00:00",
+    "value": 177.81
+  },
+  "forecast_end": {
+    "date": "2025-07-29T00:00:00",
+    "value": 184.7472382517926
+  },
+  "forecast_change": 6.937238251792593,
+  "forecast_change_percent": 3.901489371684715,
+  "forecast_preview": [
+    {
+      "ds": "2025-07-20T00:00:00",
+      "yhat": 185.45575606171414,
+      "yhat_lower": 178.87614327397452,
+      "yhat_upper": 191.88178830235515,
+      "trend": 188.4611771156522
+    },
+    {
+      "ds": "2025-07-21T00:00:00",
+      "yhat": 180.99569062335732,
+      "yhat_lower": 173.9969247628961,
+      "yhat_upper": 187.54719388712812,
+      "trend": 188.78695232470767
+    },
+    {
+      "ds": "2025-07-22T00:00:00",
+      "yhat": 182.4668117884013,
+      "yhat_lower": 175.85952224162324,
+      "yhat_upper": 189.36418187642272,
+      "trend": 189.11272753376315
+    },
+    {
+      "ds": "2025-07-23T00:00:00",
+      "yhat": 188.90118810018745,
+      "yhat_lower": 182.24509852633986,
+      "yhat_upper": 195.22613649690038,
+      "trend": 189.43850274281866
+    },
+    {
+      "ds": "2025-07-24T00:00:00",
+      "yhat": 195.9505657602625,
+      "yhat_lower": 189.30094310511203,
+      "yhat_upper": 202.6221237969496,
+      "trend": 189.7642779518741
+    },
+    {
+      "ds": "2025-07-25T00:00:00",
+      "yhat": 198.1313221523185,
+      "yhat_lower": 191.3278816162173,
+      "yhat_upper": 204.82894112746737,
+      "trend": 190.09005316092959
+    },
+    {
+      "ds": "2025-07-26T00:00:00",
+      "yhat": 194.1681847134816,
+      "yhat_lower": 187.85104382539453,
+      "yhat_upper": 200.99379120673933,
+      "trend": 190.41582836998506
+    },
+    {
+      "ds": "2025-07-27T00:00:00",
+      "yhat": 187.73618252509758,
+      "yhat_lower": 180.423639118156,
+      "yhat_upper": 194.94480767511286,
+      "trend": 190.74160357904057
+    },
+    {
+      "ds": "2025-07-28T00:00:00",
+      "yhat": 183.27611708675275,
+      "yhat_lower": 176.93661510070805,
+      "yhat_upper": 190.2645054630037,
+      "trend": 191.06737878809602
+    },
+    {
+      "ds": "2025-07-29T00:00:00",
+      "yhat": 184.7472382517926,
+      "yhat_lower": 178.5025345900841,
+      "yhat_upper": 191.27150231451964,
+      "trend": 191.3931539971515
+    }
+  ],
+  "files": {
+    "output_excel": "/home/jts/Documents/project/prophet_forecast_agent_project/outputs/prophet_forecast_contoh_data_time_series_prophet_20260505_194402.xlsx",
+    "output_json": "/home/jts/Documents/project/prophet_forecast_agent_project/outputs/prophet_forecast_contoh_data_time_series_prophet_20260505_194402.json"
+  },
+  "generated_at": "20260505_194402"
+}

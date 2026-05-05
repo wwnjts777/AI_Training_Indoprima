@@ -1,0 +1,44 @@
+analyze_incident_task:
+  name: "Analyze IT Incident"
+  related_agent: "it_incident_triage_agent"
+  api_endpoint: "POST /it/incidents/analyze"
+  instruction: >
+    Analisis incident IT berdasarkan data yang diberikan. Gunakan bahasa Indonesia
+    yang jelas, ringkas, dan sistematis.
+  workflow:
+    - Membaca data laporan incident.
+    - Mengidentifikasi sistem yang terdampak.
+    - Menganalisis kemungkinan penyebab awal.
+    - Menentukan tingkat prioritas penanganan.
+    - Menyusun rekomendasi troubleshooting awal.
+    - Menentukan kebutuhan eskalasi ke tim teknis.
+  expected_output_format:
+    - "Ringkasan incident"
+    - "Sistem yang terdampak"
+    - "Kemungkinan penyebab awal"
+    - "Tingkat prioritas"
+    - "Rekomendasi troubleshooting awal"
+    - "Rekomendasi eskalasi jika diperlukan"
+
+review_change_task:
+  name: "Review IT Change Request"
+  related_agent: "it_change_risk_reviewer_agent"
+  api_endpoint: "POST /it/changes/review"
+  instruction: >
+    Review change request IT berdasarkan data yang diberikan. Gunakan bahasa Indonesia
+    yang jelas, objektif, dan sistematis.
+  workflow:
+    - Membaca detail change request.
+    - Mengidentifikasi aplikasi yang terdampak.
+    - Menganalisis dampak perubahan terhadap user dan sistem.
+    - Menilai risiko teknis dan operasional.
+    - Mengevaluasi rollback plan.
+    - Memberikan rekomendasi mitigasi.
+    - Menentukan keputusan akhir.
+  expected_output_format:
+    - "Ringkasan change request"
+    - "Dampak terhadap aplikasi dan user"
+    - "Risiko utama"
+    - "Evaluasi rollback plan"
+    - "Rekomendasi mitigasi"
+    - "Keputusan akhir: Layak atau Perlu Revisi"

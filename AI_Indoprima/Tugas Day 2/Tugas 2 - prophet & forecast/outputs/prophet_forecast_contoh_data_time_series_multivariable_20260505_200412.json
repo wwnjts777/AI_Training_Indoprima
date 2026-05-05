@@ -1,0 +1,97 @@
+{
+  "status": "success",
+  "tool": "Prophet Forecast Tool",
+  "original_filename": "Contoh_Data_Time_Series_Multivariable.xlsx",
+  "date_column": "date",
+  "value_column": "sales",
+  "total_historical_data": 365,
+  "forecast_periods": 30,
+  "frequency": "D",
+  "last_actual": {
+    "date": "1970-01-01T00:00:00.000046022",
+    "value": 411.0
+  },
+  "forecast_end": {
+    "date": "1970-01-31T00:00:00.000046022",
+    "value": 1322173260841454.5
+  },
+  "forecast_change": 1322173260841043.5,
+  "forecast_change_percent": 321696657138940.06,
+  "forecast_preview": [
+    {
+      "ds": "1970-01-22T00:00:00.000046022",
+      "yhat": 925521282589166.9,
+      "yhat_lower": 652469476745763.9,
+      "yhat_upper": 1160212936680154.5,
+      "trend": 925521282589166.9
+    },
+    {
+      "ds": "1970-01-23T00:00:00.000046022",
+      "yhat": 969593724617198.8,
+      "yhat_lower": 676576352220080.0,
+      "yhat_upper": 1225354319622840.8,
+      "trend": 969593724617198.8
+    },
+    {
+      "ds": "1970-01-24T00:00:00.000046022",
+      "yhat": 1013666166645230.6,
+      "yhat_lower": 701413844970538.5,
+      "yhat_upper": 1293726820581830.0,
+      "trend": 1013666166645230.6
+    },
+    {
+      "ds": "1970-01-25T00:00:00.000046022",
+      "yhat": 1057738608673262.8,
+      "yhat_lower": 730341602184295.1,
+      "yhat_upper": 1357909709806200.5,
+      "trend": 1057738608673262.8
+    },
+    {
+      "ds": "1970-01-26T00:00:00.000046022",
+      "yhat": 1101811050701294.4,
+      "yhat_lower": 756407553298365.6,
+      "yhat_upper": 1418838540324667.0,
+      "trend": 1101811050701294.4
+    },
+    {
+      "ds": "1970-01-27T00:00:00.000046022",
+      "yhat": 1145883492729326.5,
+      "yhat_lower": 780659671689794.5,
+      "yhat_upper": 1478509072953110.8,
+      "trend": 1145883492729326.5
+    },
+    {
+      "ds": "1970-01-28T00:00:00.000046022",
+      "yhat": 1189955934757358.5,
+      "yhat_lower": 805007436592046.6,
+      "yhat_upper": 1535768495065936.5,
+      "trend": 1189955934757358.5
+    },
+    {
+      "ds": "1970-01-29T00:00:00.000046022",
+      "yhat": 1234028376785390.2,
+      "yhat_lower": 829421434586448.1,
+      "yhat_upper": 1592255342911459.8,
+      "trend": 1234028376785390.2
+    },
+    {
+      "ds": "1970-01-30T00:00:00.000046022",
+      "yhat": 1278100818813422.2,
+      "yhat_lower": 848668823215193.4,
+      "yhat_upper": 1658747595233247.2,
+      "trend": 1278100818813422.2
+    },
+    {
+      "ds": "1970-01-31T00:00:00.000046022",
+      "yhat": 1322173260841454.5,
+      "yhat_lower": 865654072363511.1,
+      "yhat_upper": 1731614999259014.8,
+      "trend": 1322173260841454.5
+    }
+  ],
+  "files": {
+    "output_excel": "/home/jts/Documents/project/prophet_forecast_agent_project/outputs/prophet_forecast_contoh_data_time_series_multivariable_20260505_200412.xlsx",
+    "output_json": "/home/jts/Documents/project/prophet_forecast_agent_project/outputs/prophet_forecast_contoh_data_time_series_multivariable_20260505_200412.json"
+  },
+  "generated_at": "20260505_200412"
+}

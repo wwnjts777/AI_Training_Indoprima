@@ -1,0 +1,18 @@
+process_anomaly_summary_task:
+  name: >
+    Process Anomaly Summary Task
+
+  description: >
+    Buat ringkasan analisis hasil deteksi anomali proses menggunakan Isolation
+    Forest berdasarkan data hasil pemrosesan yang diberikan. Gunakan bahasa
+    Indonesia yang jelas, ringkas, dan mudah dipahami.
+
+  expected_output: >
+    Ringkasan analisis anomali proses dalam bahasa Indonesia yang hanya memuat
+    ringkasan umum, jumlah data anomali, dan data anomaly jika jumlah anomaly
+    lebih besar dari total data dibagi dua.
+
+  output_sections:
+    - Ringkasan umum
+    - Jumlah data anomali
+    - Data anomaly jika jumlah anomaly lebih besar dari total data / 2
