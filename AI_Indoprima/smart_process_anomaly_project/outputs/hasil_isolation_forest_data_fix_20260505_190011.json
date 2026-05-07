@@ -1,0 +1,246 @@
+{
+  "status": "success",
+  "api_type": "process_anomaly_analysis",
+  "original_filename": "data-fix.xlsx",
+  "method": "isolation_forest",
+  "parameters": {
+    "contamination": 0.05,
+    "random_state": 42,
+    "n_estimators": 100
+  },
+  "columns": {
+    "time_column": "time",
+    "sensor_columns": [
+      "Cyclone_Inlet_Gas_Temp",
+      "Cyclone_Material_Temp",
+      "Cyclone_Outlet_Gas_draft",
+      "Cyclone_cone_draft",
+      "Cyclone_Gas_Outlet_Temp",
+      "Cyclone_Inlet_Draft"
+    ]
+  },
+  "summary": {
+    "total_data": 500,
+    "half_total_data": 250.0,
+    "total_normal_rows": 475,
+    "total_anomaly_rows": 25,
+    "show_anomaly_data": false,
+    "anomaly_message": "Jumlah data anomaly 25 tidak lebih besar dari setengah total data (500 / 2 = 250.0). Data anomaly tidak ditampilkan penuh."
+  },
+  "anomaly_rows": [],
+  "sensor_summary": [
+    {
+      "Parameter": "Cyclone_Inlet_Gas_Temp",
+      "Mean": 887.5233799999999,
+      "Min": 853.31,
+      "Max": 934.63,
+      "Std": 15.751967538637091,
+      "Normal Reference Mean": 886.8965684210526,
+      "Normal Reference Std": 14.917749905734965
+    },
+    {
+      "Parameter": "Cyclone_Material_Temp",
+      "Mean": 937.95102,
+      "Min": 902.56,
+      "Max": 972.76,
+      "Std": 13.568324525174097,
+      "Normal Reference Mean": 937.8152421052631,
+      "Normal Reference Std": 12.936716746681803
+    },
+    {
+      "Parameter": "Cyclone_Outlet_Gas_draft",
+      "Mean": -182.97673999999998,
+      "Min": -203.26,
+      "Max": -169.67,
+      "Std": 5.51473667672603,
+      "Normal Reference Mean": -182.8834947368421,
+      "Normal Reference Std": 5.221381107756892
+    },
+    {
+      "Parameter": "Cyclone_cone_draft",
+      "Mean": -170.16653999999997,
+      "Min": -218.22,
+      "Max": -71.48,
+      "Std": 24.91883586747946,
+      "Normal Reference Mean": -170.3094947368421,
+      "Normal Reference Std": 23.848380951456097
+    },
+    {
+      "Parameter": "Cyclone_Gas_Outlet_Temp",
+      "Mean": 873.58578,
+      "Min": 845.05,
+      "Max": 916.88,
+      "Std": 13.594708978717865,
+      "Normal Reference Mean": 873.1441894736842,
+      "Normal Reference Std": 12.652392709366907
+    },
+    {
+      "Parameter": "Cyclone_Inlet_Draft",
+      "Mean": -146.84446,
+      "Min": -167.49,
+      "Max": -132.16,
+      "Std": 6.0411261133861185,
+      "Normal Reference Mean": -146.74865263157895,
+      "Normal Reference Std": 5.755157352796874
+    }
+  ],
+  "preview_rows": [
+    {
+      "time": "2017-01-01T00:00:00",
+      "Cyclone_Inlet_Gas_Temp": 867.63,
+      "Cyclone_Material_Temp": 910.42,
+      "Cyclone_Outlet_Gas_draft": -189.54,
+      "Cyclone_cone_draft": -186.04,
+      "Cyclone_Gas_Outlet_Temp": 852.13,
+      "Cyclone_Inlet_Draft": -145.9,
+      "Anomaly Label": 1,
+      "Anomaly Score": 0.025895147463491974,
+      "Status Overall": "Normal",
+      "Alasan Anomali": "Normal",
+      "Saran Maintenance": "Lanjutkan monitoring proses secara rutin. Tidak diperlukan tindakan korektif segera.",
+      "Tindakan Lanjutan": "Simpan data sebagai histori monitoring dan lanjutkan inspeksi sesuai jadwal."
+    },
+    {
+      "time": "2017-01-01T00:05:00",
+      "Cyclone_Inlet_Gas_Temp": 879.23,
+      "Cyclone_Material_Temp": 918.14,
+      "Cyclone_Outlet_Gas_draft": -184.33,
+      "Cyclone_cone_draft": -182.1,
+      "Cyclone_Gas_Outlet_Temp": 862.53,
+      "Cyclone_Inlet_Draft": -149.76,
+      "Anomaly Label": 1,
+      "Anomaly Score": 0.106881565627433,
+      "Status Overall": "Normal",
+      "Alasan Anomali": "Normal",
+      "Saran Maintenance": "Lanjutkan monitoring proses secara rutin. Tidak diperlukan tindakan korektif segera.",
+      "Tindakan Lanjutan": "Simpan data sebagai histori monitoring dan lanjutkan inspeksi sesuai jadwal."
+    },
+    {
+      "time": "2017-01-01T00:10:00",
+      "Cyclone_Inlet_Gas_Temp": 875.67,
+      "Cyclone_Material_Temp": 924.18,
+      "Cyclone_Outlet_Gas_draft": -181.26,
+      "Cyclone_cone_draft": -166.47,
+      "Cyclone_Gas_Outlet_Temp": 866.06,
+      "Cyclone_Inlet_Draft": -145.01,
+      "Anomaly Label": 1,
+      "Anomaly Score": 0.13429476021255032,
+      "Status Overall": "Normal",
+      "Alasan Anomali": "Normal",
+      "Saran Maintenance": "Lanjutkan monitoring proses secara rutin. Tidak diperlukan tindakan korektif segera.",
+      "Tindakan Lanjutan": "Simpan data sebagai histori monitoring dan lanjutkan inspeksi sesuai jadwal."
+    },
+    {
+      "time": "2017-01-01T00:15:00",
+      "Cyclone_Inlet_Gas_Temp": 875.28,
+      "Cyclone_Material_Temp": 923.15,
+      "Cyclone_Outlet_Gas_draft": -179.15,
+      "Cyclone_cone_draft": -174.83,
+      "Cyclone_Gas_Outlet_Temp": 865.85,
+      "Cyclone_Inlet_Draft": -142.82,
+      "Anomaly Label": 1,
+      "Anomaly Score": 0.1262401592101991,
+      "Status Overall": "Normal",
+      "Alasan Anomali": "Normal",
+      "Saran Maintenance": "Lanjutkan monitoring proses secara rutin. Tidak diperlukan tindakan korektif segera.",
+      "Tindakan Lanjutan": "Simpan data sebagai histori monitoring dan lanjutkan inspeksi sesuai jadwal."
+    },
+    {
+      "time": "2017-01-01T00:20:00",
+      "Cyclone_Inlet_Gas_Temp": 891.66,
+      "Cyclone_Material_Temp": 934.26,
+      "Cyclone_Outlet_Gas_draft": -178.32,
+      "Cyclone_cone_draft": -173.72,
+      "Cyclone_Gas_Outlet_Temp": 876.06,
+      "Cyclone_Inlet_Draft": -143.39,
+      "Anomaly Label": 1,
+      "Anomaly Score": 0.1420250483426591,
+      "Status Overall": "Normal",
+      "Alasan Anomali": "Normal",
+      "Saran Maintenance": "Lanjutkan monitoring proses secara rutin. Tidak diperlukan tindakan korektif segera.",
+      "Tindakan Lanjutan": "Simpan data sebagai histori monitoring dan lanjutkan inspeksi sesuai jadwal."
+    },
+    {
+      "time": "2017-01-01T00:25:00",
+      "Cyclone_Inlet_Gas_Temp": 878.54,
+      "Cyclone_Material_Temp": 932.38,
+      "Cyclone_Outlet_Gas_draft": -188.37,
+      "Cyclone_cone_draft": -177.98,
+      "Cyclone_Gas_Outlet_Temp": 870.31,
+      "Cyclone_Inlet_Draft": -146.92,
+      "Anomaly Label": 1,
+      "Anomaly Score": 0.12966159517172338,
+      "Status Overall": "Normal",
+      "Alasan Anomali": "Normal",
+      "Saran Maintenance": "Lanjutkan monitoring proses secara rutin. Tidak diperlukan tindakan korektif segera.",
+      "Tindakan Lanjutan": "Simpan data sebagai histori monitoring dan lanjutkan inspeksi sesuai jadwal."
+    },
+    {
+      "time": "2017-01-01T00:30:00",
+      "Cyclone_Inlet_Gas_Temp": 905.94,
+      "Cyclone_Material_Temp": 951.32,
+      "Cyclone_Outlet_Gas_draft": -184.2,
+      "Cyclone_cone_draft": -182.67,
+      "Cyclone_Gas_Outlet_Temp": 889.39,
+      "Cyclone_Inlet_Draft": -151.83,
+      "Anomaly Label": 1,
+      "Anomaly Score": 0.1170230407717493,
+      "Status Overall": "Normal",
+      "Alasan Anomali": "Normal",
+      "Saran Maintenance": "Lanjutkan monitoring proses secara rutin. Tidak diperlukan tindakan korektif segera.",
+      "Tindakan Lanjutan": "Simpan data sebagai histori monitoring dan lanjutkan inspeksi sesuai jadwal."
+    },
+    {
+      "time": "2017-01-01T00:35:00",
+      "Cyclone_Inlet_Gas_Temp": 877.83,
+      "Cyclone_Material_Temp": 939.63,
+      "Cyclone_Outlet_Gas_draft": -184.2,
+      "Cyclone_cone_draft": -181.17,
+      "Cyclone_Gas_Outlet_Temp": 875.75,
+      "Cyclone_Inlet_Draft": -149.7,
+      "Anomaly Label": 1,
+      "Anomaly Score": 0.1498700255830584,
+      "Status Overall": "Normal",
+      "Alasan Anomali": "Normal",
+      "Saran Maintenance": "Lanjutkan monitoring proses secara rutin. Tidak diperlukan tindakan korektif segera.",
+      "Tindakan Lanjutan": "Simpan data sebagai histori monitoring dan lanjutkan inspeksi sesuai jadwal."
+    },
+    {
+      "time": "2017-01-01T00:40:00",
+      "Cyclone_Inlet_Gas_Temp": 871.01,
+      "Cyclone_Material_Temp": 938.73,
+      "Cyclone_Outlet_Gas_draft": -184.2,
+      "Cyclone_cone_draft": -181.17,
+      "Cyclone_Gas_Outlet_Temp": 871.35,
+      "Cyclone_Inlet_Draft": -145.62,
+      "Anomaly Label": 1,
+      "Anomaly Score": 0.1358094823232941,
+      "Status Overall": "Normal",
+      "Alasan Anomali": "Normal",
+      "Saran Maintenance": "Lanjutkan monitoring proses secara rutin. Tidak diperlukan tindakan korektif segera.",
+      "Tindakan Lanjutan": "Simpan data sebagai histori monitoring dan lanjutkan inspeksi sesuai jadwal."
+    },
+    {
+      "time": "2017-01-01T00:45:00",
+      "Cyclone_Inlet_Gas_Temp": 905.46,
+      "Cyclone_Material_Temp": 939.06,
+      "Cyclone_Outlet_Gas_draft": -182.63,
+      "Cyclone_cone_draft": -178.23,
+      "Cyclone_Gas_Outlet_Temp": 871.35,
+      "Cyclone_Inlet_Draft": -148.88,
+      "Anomaly Label": 1,
+      "Anomaly Score": 0.13990882756904793,
+      "Status Overall": "Normal",
+      "Alasan Anomali": "Normal",
+      "Saran Maintenance": "Lanjutkan monitoring proses secara rutin. Tidak diperlukan tindakan korektif segera.",
+      "Tindakan Lanjutan": "Simpan data sebagai histori monitoring dan lanjutkan inspeksi sesuai jadwal."
+    }
+  ],
+  "files": {
+    "output_excel": "/home/jts/Documents/project/smart_process_anomaly_project/outputs/hasil_isolation_forest_data_fix_20260505_185854.xlsx",
+    "markdown_file": "/home/jts/Documents/project/smart_process_anomaly_project/outputs/ringkasan_isolation_forest_data_fix_20260505_190011.md",
+    "json_file": "/home/jts/Documents/project/smart_process_anomaly_project/outputs/hasil_isolation_forest_data_fix_20260505_190011.json"
+  },
+  "crew_summary": "Ringkasan analisis anomali proses dalam bahasa Indonesia yang hanya memuat ringkasan umum, jumlah data anomali, dan data anomaly jika jumlah anomaly lebih besar dari total data dibagi dua:\n\n1. Ringkasan umum:\nIsolasi Forest digunakan untuk deteksi anomali pada data proses. Hasil analisis menunjukkan bahwa Isolasi Forest dapat mendeteksi anomali dengan akurasi yang tinggi.\n\n2. Jumlah data anomali:\nJumlah data anomali adalah 25, yang tidak lebih besar dari setengah total data (500 / 2 = 250.0). Data anomaly tidak ditampilkan penuh karena jumlahnya terlalu kecil.\n\n3. Data anomaly jika jumlah anomaly lebih besar dari total data dibagi dua:\nData anomaly jika jumlah anomaly lebih besar dari total data dibagi dua adalah 25, yang sama dengan setengah total data (500 / 2 = 250.0).",
+  "generated_at": "20260505_190011"
+}
