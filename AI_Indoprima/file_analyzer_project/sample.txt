@@ -1,0 +1,2 @@
+Ini adalah contoh file untuk dianalisis oleh File Analyzer Agent.
+File ini membahas FastAPI, Celery, Redis, CrewAI, dan Ollama.

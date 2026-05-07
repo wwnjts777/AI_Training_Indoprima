@@ -1,0 +1,19 @@
+[project]
+name = "file-analyzer-project"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "celery>=5.6.3",
+    "crewai>=1.14.4",
+    "fastapi[standard]>=0.136.1",
+    "pydantic>=2.12.5",
+    "pypdf>=6.10.2",
+    "python-docx>=1.2.0",
+    "python-dotenv>=1.2.2",
+    "python-multipart>=0.0.27",
+    "redis>=7.4.0",
+    "requests>=2.33.1",
+    "uvicorn[standard]>=0.46.0",
+]
