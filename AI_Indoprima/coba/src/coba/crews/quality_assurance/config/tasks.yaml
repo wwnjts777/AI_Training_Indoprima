@@ -1,0 +1,12 @@
+quality_check_task:
+  description: >
+    Periksa output akhir berdasarkan topic dan hasil pembahasan.
+    Berikan evaluasi dalam bahasa Indonesia dengan format:
+    1. Kesesuaian dengan topic
+    2. Kejelasan isi
+    3. Kelengkapan pembahasan
+    4. Kerapian struktur
+    5. Catatan perbaikan
+    6. Keputusan akhir: Layak atau Perlu Revisi
+  expected_output: >
+    Laporan quality assurance dalam bahasa Indonesia yang berisi evaluasi kualitas output akhir.
